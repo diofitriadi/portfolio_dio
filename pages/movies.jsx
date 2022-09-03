@@ -23,10 +23,10 @@ const movies = () => {
             This Website was built using React Js and is hosted in netlify and heroku. Database is built using mysql node js.
             Users able to Register and login. You will be able to see upcoming and airing movies. If you logged in as admin you will be able to add, edit, or remove movies. This website also has feature such as search by title, genre, or release date and pagination
           </p>
-          <a href='https://tickitz-fe-dio.netlify.app' target='_blank' rel="noopener noreferrer">
+          <a href='https://tickitz-fe-dio.netlify.app' target='_blank' rel="noreferrer">
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
-          <a href='https://github.com/diofitriadi/tickitz_fe' target='_blank' rel="noopener noreferrer" >
+          <a href='https://github.com/diofitriadi/tickitz_fe' target='_blank' rel="noreferrer" >
             <button className='px-8 py-2 mt-4'>Code</button>
           </a>
         </div>
