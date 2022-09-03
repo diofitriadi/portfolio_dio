@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 import tickitz from '../public/assets/projects/tickitz-homepage.png'
 import coffee from '../public/assets/projects/coffee-shop.png'
