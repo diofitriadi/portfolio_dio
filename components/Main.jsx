@@ -20,22 +20,22 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <a href="https://www.linkedin.com/in/muhammad-dio-fitriadi/" target="_blank">
+              <a href="https://www.linkedin.com/in/muhammad-dio-fitriadi/">
                 <FaLinkedinIn/>
               </a>
             </div>
             <div className='rounded-full shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <a href="https://github.com/diofitriadi" target="_blank">
+              <a href="https://github.com/diofitriadi">
                 <FaGithub/>
               </a>
             </div>
             <div className='rounded-full shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <a href="https://mail.google.com/" target="_blank">
+              <a href="https://mail.google.com/">
                 <AiOutlineMail/>
               </a>
             </div>
             <div className='rounded-full shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <a href="https://wa.me/+6289685057385" target="_blank">
+              <a href="https://wa.me/+6289685057385">
                 <BsFillPersonFill/>
               </a>
             </div>

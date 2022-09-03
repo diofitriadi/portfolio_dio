@@ -22,10 +22,10 @@ const news = () => {
         <p>
           Online news application that contains a lot of information in it. Be a writer and share your perspective on something with the world. You can view all articles, search for articles, view articles by category, create a new article. If you are registered as user, you will be able to request to become an author, interact with the author this app also has feature such as send email to verify account and forgot password. During this team project i contributed as backend developer and making sql databases.
         </p>
-        <a href='https://dhanz.me' target='_blank' rel="noreferrer">
+        <a href='https://dhanz.me'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
-        <a href='https://github.com/bracket-technology' target='_blank' rel="noreferrer">
+        <a href='https://github.com/bracket-technology'>
             <button className='px-8 py-2 mt-4'>Code</button>
         </a>
       </div>

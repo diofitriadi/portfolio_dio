@@ -121,22 +121,22 @@ const Navbar = () => {
                 <p className="uppercase tracking-widest text-[#7200e3]">Let's Connect</p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a href="https://www.linkedin.com/in/muhammad-dio-fitriadi/" target="_blank">
+                    <a href="https://www.linkedin.com/in/muhammad-dio-fitriadi/">
                       <FaLinkedinIn/>
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a href="https://github.com/diofitriadi" target="_blank">
+                    <a href="https://github.com/diofitriadi">
                       <FaGithub/>
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a href="https://mail.google.com/" target="_blank">
+                    <a href="https://mail.google.com/">
                       <AiOutlineMail/>
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a href="https://wa.me/+6289685057385" target="_blank">
+                    <a href="https://wa.me/+6289685057385">
                       <BsFillPersonLinesFill/>
                     </a>
                   </div>

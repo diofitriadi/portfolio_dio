@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link"
+import Image from "next/image";
 import { AiOutlineMail} from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -18,9 +19,9 @@ const Contacts = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
               <div>
-                <img
+                <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
+                  source="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
                   width="100%"
                 />
               </div>
