@@ -6,8 +6,8 @@ const About = () => {
     <div id='about' className="w-fit md:h-screen p-2 flex items-center py-16 mx-10">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="py-4 text-xl tracking-widest text-[#7200e3]">ABOUT</p>
-          <h2 className="py-4">Who I Am</h2>
+          <p className="py-4 text-xl tracking-widest text-gray-700 font-bold">ABOUT</p>
+          <h2 className="pb-4">Who I Am</h2>
           <p className="py-2 text-gray-600">There's never too late for learning. </p>
           <p className="py-2 text-gray-600">
             I am interest in programming ever since i was browsing the internet, what cool things happen behind our eye's can see. I didn't have the opportunity to learn coding because during high school i got accepted in social field. Also at university i graduated with tourism degree. After graduated i wanted to pursue things that i really love which is web programming. 

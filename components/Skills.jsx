@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div id="skills" className='w-fit lg:h-screen p-2 mx-10'>
       <div className='w-[120%] lg:w-[100%] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#7200e3]'>Skills</p>
+        <p className='text-xl tracking-widest uppercase text-gray-600 font-bold'>Skills</p>
         <h2 className='py-4'>What I Can Do</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 

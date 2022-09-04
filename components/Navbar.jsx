@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'>
           <Image 
-            src="/navLogo.png" 
+            src="/navLogos.png" 
             alt="/" 
             width="150" 
             height="90" 
@@ -86,11 +86,11 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href='/'>
-              <Image src="/navLogo.png" 
+              <Image src="/navLogos.png" 
                 width="100" 
                 height="60"
                 alt="/" 
-                style={{marginLeft: -30}}
+                style={{marginLeft: -33}}
               /> 
               </Link>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer" onClick={handleNav}>
@@ -120,7 +120,7 @@ const Navbar = () => {
                 </Link>
               </ul>
               <div className="pt-12">
-                <p className="uppercase tracking-widest text-[#7200e3]">Let's Connect</p>
+                <p className="uppercase tracking-widest text-gray-600 font-bold" >Let's Connect</p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a href="https://www.linkedin.com/in/muhammad-dio-fitriadi/">

@@ -8,9 +8,9 @@ const Main = () => {
     <div id="home" className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600 mt-20 '>Let's Create Magnificent Things Togerther</p>
+          <p className='uppercase text-sm tracking-widest text-gray-600 mt-20'>Let's Create Magnificent Things Togerther</p>
           <h1 className='py-2 text-gray-700'>
-            Hello, I'm <span className='text-[#7200e3]'>Dio</span>
+            Hello, I'm <span className='text-[#1e2227]'>Dio</span>
           </h1>
           <h1 className='py-2 text-gray-700'>
             A Full-Stack Web Developer
