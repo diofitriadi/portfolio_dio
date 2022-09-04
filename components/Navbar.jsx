@@ -55,7 +55,7 @@ const Navbar = () => {
             alt="/" 
             width="150" 
             height="90" 
-            style={{marginLeft: -30, marginTop: 5}}
+            style={{ marginTop: 5, marginLeft: -20}}
           />                
         </Link>
           <div>
