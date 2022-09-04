@@ -16,7 +16,7 @@ const About = () => {
             I decided to join bootcamp to give me the comprehensive view about what i can do as fullstack web developer and gained experience in mobile software development. After an extensive training , I learn a lot and it's time to show what i have done and apply all of the things that i have learned in bootcamp.
           </p>
           <Link href='/#projects'>
-            <p className="py-2 text-gray-600">Click here to see all of my projects</p>
+            <p className="py-2 text-gray-600 underline hover:cursor-pointer">Click here to see all of my projects</p>
           </Link>
         </div>
         <div className="w-full h-fit m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
