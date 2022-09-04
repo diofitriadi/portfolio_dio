@@ -13,7 +13,11 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [LinkColor, setLinkColor] = useState('#1f2937')
   const router = useRouter()
-
+  
+  const handleNav = () => {
+    setNav(!nav)
+  }
+  
   useEffect(()=> {
     if (
       router.asPath === '/movies' ||
@@ -24,14 +28,12 @@ const Navbar = () => {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
     } else {
-      setNav('#ecf0f3')
+      setNavBg('#ecf0f3')
       setLinkColor('#1f2937')
     }
   }, [router])
 
-  const handleNav = () => {
-    setNav(!nav)
-  }
+
 
   useEffect(()=> {
     const handleShadow = () => {
